@@ -208,17 +208,6 @@ def whole_word_masking_data_collator(features, tokenizer, data_collator):
 
 
 
-
-def save_model_checkpoint():
-   pass
-
-
-
-
-def load_model_checkpoint():
-   pass
-
-
 def make_output_dir(config: Dict):
 
 
@@ -275,8 +264,7 @@ def select_model_and_tokenizer(model_name):
 
 
 
-webhook_url = "https://hooks.slack.com/services/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"
-@slack_sender(webhook_url=webhook_url, channel="models-pre-training")
+
 def train():
    config= read_json_file("/home/raimbault/PRE/config.json")
    tokenizer, model = select_model_and_tokenizer("flaubert/flaubert_base_uncased")
