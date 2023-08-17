@@ -15,7 +15,7 @@
 
 ### Description of the code
 
-**legal_finetuning.py is a fine-tuning routine made up to fine-tune models on legal classification tasks. To build the code, we customed the code used to run GLUE benchmark tasks (https://github.com/huggingface/transformers/blob/main/examples/pytorch/text-classification/run_glue.py) by adding the estimations relevant micro and macro metrics and adapting the truncation of the tokenizer to the legal dataset.**
+**legal_finetuning.py is a fine-tuning routine made up to fine-tune models on legal classification tasks. To build the code, we customized the code used to run GLUE benchmark tasks (https://github.com/huggingface/transformers/blob/main/examples/pytorch/text-classification/run_glue.py) by adding the estimations relevant micro and macro metrics and adapting the truncation of the tokenizer to the legal dataset.**
 
 ### How to run the code
 **The code is built with class of arguments. Thus, to run the fine-tuning, you run a script with specified variables that you consider relevant.**
